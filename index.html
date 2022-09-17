@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -27,12 +27,99 @@
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
+      <p id="timeToday"></p>
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+
+      <div class="row">
+        <div class="time-block hour col-2" id="9am">9am</div>
+        <div class="col-8">
+          <textarea class="calendarItem" placeholder="enter event"></textarea></div>
+        <div class="saveBtn col-2">
+          <button id="9amBtn">save</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="time-block hour col-2" id="10am">10am</div>
+        <div class="col-8">
+          <textarea class="calendarItem" placeholder="enter event"></textarea></div>
+        <div class="saveBtn col-2">
+          <button id="10amBtn">save</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="time-block hour col-2" id="11am">11am</div>
+        <div class="col-8">
+          <textarea class="calendarItem" placeholder="enter event"></textarea></div>
+        <div class="saveBtn col-2">
+          <button id="11amBtn">save</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="time-block hour col-2" id="12pm">12pm</div>
+        <div class="col-8">
+          <textarea class="calendarItem" placeholder="enter event"></textarea></div>
+        <div class="saveBtn col-2">
+          <button id="12pmBtn">save</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="time-block hour col-2" id="1pm">1pm</div>
+        <div class="col-8">
+          <textarea class="calendarItem" placeholder="enter event"></textarea></div>
+        <div class="saveBtn col-2">
+          <button id="1pmBtn">save</button>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="time-block hour col-2" id="2pm">2pm</div>
+        <div class="col-8">
+          <textarea class="calendarItem" placeholder="enter event"></textarea></div>
+        <div class="saveBtn col-2">
+          <button id="2pmBtn">save</button>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="time-block hour col-2" id="3pm">3pm</div>
+        <div class="col-8">
+          <textarea class="calendarItem" placeholder="enter event"></textarea></div>
+        <div class="saveBtn col-2">
+          <button id="3pmBtn">save</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="time-block hour col-2" id="4pm">4pm</div>
+        <div class="col-8">
+          <textarea class="calendarItem" placeholder="enter event"></textarea></div>
+        <div class="saveBtn col-2">
+          <button id="4pmBtn">save</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="time-block hour col-2" id="5pm">5pm</div>
+        <div class="col-8">
+          <textarea class="calendarItem" placeholder="enter event"></textarea></div>
+        <div class="saveBtn col-2">
+          <button id="5pmBtn">save</button>
+        </div>
+      </div>
+
+
+
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/script.js"></script>
+
   </body>
 </html>
