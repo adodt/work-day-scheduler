@@ -39,7 +39,7 @@ $(".saveBtn").click(function (event){
     var time = $(this).parent().attr("id")
     var value = $(this).siblings(".eventArea").children(".calendarItem").val();
     localStorage.setItem(time, value);
-})
+});
 
 console.log(localStorage.getItem("5pm"))
 

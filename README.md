@@ -22,7 +22,7 @@
 
 <a id="github-repo"></a>
 
-### Github Repository: [password-generator](https://github.com/adodt/work-day-scheduler)
+### Github Repository: [work-day-scheduler](https://github.com/adodt/work-day-scheduler)
 
 #
 ### Screenshot 
